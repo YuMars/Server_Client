@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		EED776712A73A2CD00D06976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776702A73A2CD00D06976 /* AppDelegate.swift */; };
 		EED776732A73A2CD00D06976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776722A73A2CD00D06976 /* SceneDelegate.swift */; };
-		EED776752A73A2CD00D06976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776742A73A2CD00D06976 /* ViewController.swift */; };
 		EED776782A73A2CD00D06976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED776762A73A2CD00D06976 /* Main.storyboard */; };
 		EED7767A2A73A2CE00D06976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED776792A73A2CE00D06976 /* Assets.xcassets */; };
 		EED7767D2A73A2CE00D06976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED7767B2A73A2CE00D06976 /* LaunchScreen.storyboard */; };
 		EED7768B2A73A37B00D06976 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7768A2A73A37B00D06976 /* LoginVC.swift */; };
 		EED7768D2A73A38F00D06976 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7768C2A73A38F00D06976 /* RegisterVC.swift */; };
+		EED776932A73BE3100D06976 /* UILabel+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776922A73BE3100D06976 /* UILabel+Utility.swift */; };
+		EED776952A73BFD400D06976 /* UIButton+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776942A73BFD400D06976 /* UIButton+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EED7766D2A73A2CD00D06976 /* Swift_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED776702A73A2CD00D06976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED776722A73A2CD00D06976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EED776742A73A2CD00D06976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EED776772A73A2CD00D06976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED776792A73A2CE00D06976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED7767C2A73A2CE00D06976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED7767E2A73A2CE00D06976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EED7768A2A73A37B00D06976 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EED7768C2A73A38F00D06976 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		EED776922A73BE3100D06976 /* UILabel+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UILabel+Utility.swift"; path = "../../../../../Documents/UILabel+Utility.swift"; sourceTree = "<group>"; };
+		EED776942A73BFD400D06976 /* UIButton+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIButton+Utility.swift"; path = "../../../../../Documents/UIButton+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,8 @@
 			children = (
 				EED776702A73A2CD00D06976 /* AppDelegate.swift */,
 				EED776722A73A2CD00D06976 /* SceneDelegate.swift */,
-				EED776842A73A2F300D06976 /* Login */,
-				EED776852A73A2FD00D06976 /* Register */,
-				EED776742A73A2CD00D06976 /* ViewController.swift */,
+				EED7768F2A73BDDC00D06976 /* Module */,
+				EED7768E2A73BDB600D06976 /* Utility */,
 				EED776762A73A2CD00D06976 /* Main.storyboard */,
 				EED776792A73A2CE00D06976 /* Assets.xcassets */,
 				EED7767B2A73A2CE00D06976 /* LaunchScreen.storyboard */,
@@ -87,6 +88,24 @@
 				EED7768C2A73A38F00D06976 /* RegisterVC.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		EED7768E2A73BDB600D06976 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EED776922A73BE3100D06976 /* UILabel+Utility.swift */,
+				EED776942A73BFD400D06976 /* UIButton+Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EED7768F2A73BDDC00D06976 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EED776842A73A2F300D06976 /* Login */,
+				EED776852A73A2FD00D06976 /* Register */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +140,7 @@
 				TargetAttributes = {
 					EED7766C2A73A2CD00D06976 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -160,11 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED776752A73A2CD00D06976 /* ViewController.swift in Sources */,
 				EED776712A73A2CD00D06976 /* AppDelegate.swift in Sources */,
 				EED7768D2A73A38F00D06976 /* RegisterVC.swift in Sources */,
+				EED776952A73BFD400D06976 /* UIButton+Utility.swift in Sources */,
 				EED776732A73A2CD00D06976 /* SceneDelegate.swift in Sources */,
 				EED7768B2A73A37B00D06976 /* LoginVC.swift in Sources */,
+				EED776932A73BE3100D06976 /* UILabel+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AA8R9D42PX;
@@ -327,6 +349,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "yumars.Swift-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AA8R9D42PX;
@@ -355,6 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "yumars.Swift-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
