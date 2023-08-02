@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0671872A77ACCA008942C9 /* UIView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0671862A77ACCA008942C9 /* UIView+Utility.swift */; };
 		EED776712A73A2CD00D06976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776702A73A2CD00D06976 /* AppDelegate.swift */; };
 		EED776732A73A2CD00D06976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED776722A73A2CD00D06976 /* SceneDelegate.swift */; };
 		EED776782A73A2CD00D06976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED776762A73A2CD00D06976 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0671862A77ACCA008942C9 /* UIView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utility.swift"; sourceTree = "<group>"; };
 		EED7766D2A73A2CD00D06976 /* Swift_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED776702A73A2CD00D06976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED776722A73A2CD00D06976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				EED776922A73BE3100D06976 /* UILabel+Utility.swift */,
 				EED776942A73BFD400D06976 /* UIButton+Utility.swift */,
+				EE0671862A77ACCA008942C9 /* UIView+Utility.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				EED776952A73BFD400D06976 /* UIButton+Utility.swift in Sources */,
 				EED776732A73A2CD00D06976 /* SceneDelegate.swift in Sources */,
 				EED7768B2A73A37B00D06976 /* LoginVC.swift in Sources */,
+				EE0671872A77ACCA008942C9 /* UIView+Utility.swift in Sources */,
 				EED776932A73BE3100D06976 /* UILabel+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
